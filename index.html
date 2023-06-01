@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #9f1696;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(to top, #fdcbf1 0%, #f098db 1%, #e6dee9 100%);
+   
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #5c0547;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+#featured-products {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#featured-products h2 {
+    margin-bottom: 40px;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    padding: 20px;
+    background-color: #fbedf9;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    height:300px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #888;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#featured-products">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h1>Welcome to <span style="color: rgba(255, 2, 162, 0.703);">Myntra</span></h1></span>
+            <p>Discover the latest fashion trends.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="Summer-Cotton-Short-sleeved-T-shirt-Men-s-Solid-Color-Loose-Round-Neck-T-Shirt-For.jpg_960x960.jpg" alt="Product 1">
+                <h3>T-shirts</h3>
+                <p> from $19.99</p>
+            </div>
+            <div class="product">
+                <img src="Mens-Aqua-Long-Sleeve-Linen-Shirt-MCLNLSAQU_5.jpg" alt="Product 2">
+                <h3>Shirts</h3>
+                <p> from $24.99</p>
+            </div>
+            <div class="product">
+                <img src="istockphoto-866103730-612x612.jpg" alt="Product 3">
+                <h3>Trousers</h3>
+                <p>from $14.99</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Our Online Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
